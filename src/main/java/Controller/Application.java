@@ -13,7 +13,7 @@ public class Application {
     @RequestMapping("/")
     public String hello(){
 
-        return "Eh noixxx viadan!!";
+        return "Eh noixx!!";
     }
 
     public static void main (String[] args){
