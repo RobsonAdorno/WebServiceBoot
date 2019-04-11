@@ -1,4 +1,4 @@
-# Application in Spring Boot
+# Aplicação Spring Boot e Docker
 
 Ao realizar o git clone, é altamente recomendado trabalhar com o Docker. Utilizei a imagem:
 https://hub.docker.com/r/springci/spring-boot-ci-image
