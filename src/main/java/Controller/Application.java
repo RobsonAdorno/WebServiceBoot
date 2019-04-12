@@ -13,7 +13,11 @@ public class Application {
     @RequestMapping("/")
     public String hello(){
 
-        return "Eh noixx 2!!";
+        return "[ 'System:" +
+                "{ID: 0, " +
+                "Description: 'WebService em manutenção' " +
+                "}" +
+                "]";
     }
 
     public static void main (String[] args){
