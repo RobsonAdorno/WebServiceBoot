@@ -5,6 +5,9 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
+import java.util.ArrayList;
+import java.util.List;
+
 @Getter @Setter
 @AllArgsConstructor
 @NoArgsConstructor
@@ -15,5 +18,7 @@ public class User {
     private String CPF;
     private String login;
     private String senha;
+    private List<Request> requests = new ArrayList<Request>();
+    private List<RequestStage> userStage = new ArrayList<RequestStage>();
 
 }
