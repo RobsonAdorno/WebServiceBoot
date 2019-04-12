@@ -1,4 +1,6 @@
-Controller/Application.class
-Enums/TypeOfUser.class
 Enums/RequestStatus.class
 Domain/User.class
+Domain/Request.class
+Controller/Application.class
+Domain/RequestStage.class
+Enums/TypeOfUser.class

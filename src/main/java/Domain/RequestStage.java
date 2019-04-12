@@ -7,11 +7,10 @@ import lombok.NoArgsConstructor;
 import lombok.Setter;
 import java.util.Date;
 
+@Getter @Setter
+@AllArgsConstructor
+@NoArgsConstructor
 public class RequestStage {
-
-    @Getter @Setter
-    @AllArgsConstructor
-    @NoArgsConstructor
     private Long id;
     private String description;
     private Date realizationDate;
