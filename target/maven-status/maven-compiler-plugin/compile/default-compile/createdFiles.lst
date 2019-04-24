@@ -1,6 +1,3 @@
-Enums/RequestStatus.class
-Domain/User.class
-Domain/Request.class
+Domain/Client.class
 Controller/Application.class
-Domain/RequestStage.class
-Enums/TypeOfUser.class
+Repository/ClientRepository.class

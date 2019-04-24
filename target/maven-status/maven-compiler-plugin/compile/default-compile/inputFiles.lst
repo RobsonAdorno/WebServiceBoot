@@ -1,1 +1,7 @@
-/Users/RobsAdorno/IdeaProjects/WebServiceBoot/src/main/java/Controller/Application.java
+/Users/rferreira/Desktop/WebServiceBoot/src/main/java/Repository/ClientRepository.java
+/Users/rferreira/Desktop/WebServiceBoot/src/main/java/Controller/Application.java
+/Users/rferreira/Desktop/WebServiceBoot/src/main/java/Enums/RequestStatus.java
+/Users/rferreira/Desktop/WebServiceBoot/src/main/java/Domain/Client.java
+/Users/rferreira/Desktop/WebServiceBoot/src/main/java/Enums/TypeOfUser.java
+/Users/rferreira/Desktop/WebServiceBoot/src/main/java/Domain/Request.java
+/Users/rferreira/Desktop/WebServiceBoot/src/main/java/Domain/RequestStage.java
