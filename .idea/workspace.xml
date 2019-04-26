@@ -2,22 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="64cbb697-fa89-4359-b682-2926a699887c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/Resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Domain/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Domain/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Domain/Request.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Domain/Request.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Domain/RequestStage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Domain/RequestStage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Domain/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Domain/Client.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Domain/Request.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Domain/Request.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Domain/RequestStage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Domain/RequestStage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/gs-spring-boot-docker-0.1.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/gs-spring-boot-docker-0.1.0.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/gs-spring-boot-docker-0.1.0.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/target/gs-spring-boot-docker-0.1.0.jar.original" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Repository/ClientRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Repository/ClientRepository.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -44,7 +29,7 @@
           <entry key="class" value="1" />
           <entry key="gitignore" value="1" />
           <entry key="iml" value="1" />
-          <entry key="java" value="9" />
+          <entry key="java" value="10" />
           <entry key="properties" value="1" />
           <entry key="xml" value="3" />
         </counts>
@@ -54,7 +39,7 @@
           <entry key="CLASS" value="1" />
           <entry key="Dockerfile" value="1" />
           <entry key="IDEA_MODULE" value="1" />
-          <entry key="JAVA" value="9" />
+          <entry key="JAVA" value="10" />
           <entry key="PLAIN_TEXT" value="1" />
           <entry key="Properties" value="1" />
           <entry key="XML" value="3" />
@@ -64,7 +49,7 @@
         <counts>
           <entry key="class" value="6" />
           <entry key="dummy" value="6" />
-          <entry key="java" value="1370" />
+          <entry key="java" value="1585" />
           <entry key="properties" value="258" />
           <entry key="xml" value="150" />
         </counts>
@@ -72,7 +57,7 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CLASS" value="6" />
-          <entry key="JAVA" value="1370" />
+          <entry key="JAVA" value="1585" />
           <entry key="PLAIN_TEXT" value="6" />
           <entry key="Properties" value="258" />
           <entry key="XML" value="150" />
@@ -85,7 +70,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Domain/Client.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="140">
+            <state relative-caret-position="178">
               <caret line="21" column="16" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -94,53 +79,14 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-184">
-              <caret line="27" column="21" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Domain/RequestStage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="186">
-              <caret line="16" column="49" selection-start-line="16" selection-start-column="49" selection-end-line="16" selection-end-column="49" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/Resources/application.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="36" selection-start-line="4" selection-start-column="36" selection-end-line="4" selection-end-column="36" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Domain/Request.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="201">
-              <caret line="20" column="55" selection-start-line="20" selection-start-column="55" selection-end-line="20" selection-end-column="55" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Repository/ClientRepository.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="33" selection-start-line="1" selection-start-column="33" selection-end-line="1" selection-end-column="33" />
+            <state relative-caret-position="225">
+              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -166,12 +112,12 @@
         <option value="$PROJECT_DIR$/src/main/java/Enums/TypeOfUser.java" />
         <option value="$PROJECT_DIR$/src/main/java/Domain/User.java" />
         <option value="$PROJECT_DIR$/src/main/java/Controller/Application.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Repository/ClientRepository.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/Domain/RequestStage.java" />
         <option value="$PROJECT_DIR$/src/main/java/Domain/Request.java" />
         <option value="$PROJECT_DIR$/src/main/java/Domain/Client.java" />
         <option value="$PROJECT_DIR$/src/main/Resources/application.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/Repository/ClientRepository.java" />
       </list>
     </option>
   </component>
@@ -203,7 +149,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
+  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
     <option name="x" value="1440" />
     <option name="y" value="132" />
     <option name="width" value="1366" />
@@ -254,7 +200,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="Enums" type="462c0819:PsiDirectoryNode" />
+              <item name="Repository" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="WebServiceBoot" type="b2602c69:ProjectViewProjectNode" />
@@ -274,7 +220,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556300734022" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556308622747" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -325,11 +271,11 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1440" y="132" width="1366" height="768" extended-state="0" />
+    <frame x="1440" y="132" width="1366" height="768" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.26923078" visible="true" weight="0.22809668" />
-      <window_info active="true" id="Structure" order="1" sideWeight="0.7307692" side_tool="true" visible="true" weight="0.22809668" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.26923078" visible="true" weight="0.22809668" />
+      <window_info id="Structure" order="1" sideWeight="0.7307692" side_tool="true" weight="0.22809668" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Capture Tool" order="4" />
@@ -338,7 +284,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3295129" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3295129" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -411,13 +357,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Repository/ClientRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="33" selection-start-line="1" selection-start-column="33" selection-end-line="1" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -458,9 +397,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="36" selection-start-line="4" selection-start-column="36" selection-end-line="4" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Domain/Client.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
+        <state relative-caret-position="178">
           <caret line="21" column="16" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -468,10 +414,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/Resources/application.properties">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Repository/ClientRepository.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="36" selection-start-line="4" selection-start-column="36" selection-end-line="4" selection-end-column="36" />
+        <state relative-caret-position="225">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
