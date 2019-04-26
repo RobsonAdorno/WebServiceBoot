@@ -7,13 +7,14 @@ import lombok.NoArgsConstructor;
 import lombok.Setter;
 
 import javax.persistence.*;
+import java.io.Serializable;
 import java.util.Date;
 
 @Getter @Setter
 @AllArgsConstructor
 @NoArgsConstructor
-@Entity(name = "request_stage")
-public class RequestStage {
+@Entity
+public class RequestStage implements Serializable {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
