@@ -6,13 +6,21 @@ import Service.ServiceUtils.HashUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import java.util.List;
 import java.util.Optional;
 
 @Service
-public class ClientService {
+public class ClientService{
+    @Autowired private ClientRepository clientRepository;
 
+    public List<Client> returnAllClients(){
+        return clientRepository.returnAllClients();
+    }
 
-    @Autowired public ClientRepository clientRepository;
+    public Client returnClientById(Long id){
+        Optional<Client> client = clientRepository.returnClientById(id);
+        return client.get();
+    }
 
     public Client loginClient(String login, String senha){
         senha = HashUtils.toHash(senha);

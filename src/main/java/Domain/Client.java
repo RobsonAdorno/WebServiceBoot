@@ -14,7 +14,7 @@ import java.util.List;
 @Getter @Setter
 @AllArgsConstructor
 @NoArgsConstructor
-@Entity
+@Entity(name = "client_owner")
 public class Client implements Serializable {
 
     @Id
@@ -38,11 +38,11 @@ public class Client implements Serializable {
     private RequestStatus role;
 
     @OneToMany(targetEntity = Request.class, fetch=FetchType.EAGER)
-    @JoinColumn(name="request_id")
+    @JoinColumn(name="client")
     private List<Request> requests = new ArrayList<Request>();
 
     @OneToMany(targetEntity = RequestStage.class, fetch=FetchType.EAGER)
-    @JoinColumn(name="request_id")
+    @JoinColumn(name="client")
     private List<RequestStage> userStage = new ArrayList<RequestStage>();
 
 }

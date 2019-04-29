@@ -1,0 +1,5 @@
+Service/ServiceUtils/HashUtils.class
+Resource/UserResource.class
+Repository/RequestRepository.class
+DTO/ClientDTO.class
+Service/ClientService.class

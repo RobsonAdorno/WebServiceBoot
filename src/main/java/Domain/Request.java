@@ -17,6 +17,9 @@ import java.util.List;
 @NoArgsConstructor
 @Entity(name = "request")
 public class Request implements Serializable {
+
+    private static final long serialVersionUID = 1L;
+
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;

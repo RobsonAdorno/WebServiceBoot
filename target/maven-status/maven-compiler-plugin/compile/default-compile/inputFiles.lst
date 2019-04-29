@@ -1,7 +1,12 @@
 /Users/rferreira/Desktop/WebServiceBoot/src/main/java/Repository/ClientRepository.java
-/Users/rferreira/Desktop/WebServiceBoot/src/main/java/Controller/Application.java
+/Users/rferreira/Desktop/WebServiceBoot/src/main/java/DTO/ClientDTO.java
+/Users/rferreira/Desktop/WebServiceBoot/src/main/java/Service/ClientService.java
 /Users/rferreira/Desktop/WebServiceBoot/src/main/java/Enums/RequestStatus.java
+/Users/rferreira/Desktop/WebServiceBoot/src/main/java/Resource/UserResource.java
+/Users/rferreira/Desktop/WebServiceBoot/src/main/java/DTO/ClientLoginDTO.java
+/Users/rferreira/Desktop/WebServiceBoot/src/main/java/Repository/RequestRepository.java
 /Users/rferreira/Desktop/WebServiceBoot/src/main/java/Domain/Client.java
 /Users/rferreira/Desktop/WebServiceBoot/src/main/java/Enums/TypeOfUser.java
+/Users/rferreira/Desktop/WebServiceBoot/src/main/java/Service/ServiceUtils/HashUtils.java
 /Users/rferreira/Desktop/WebServiceBoot/src/main/java/Domain/Request.java
 /Users/rferreira/Desktop/WebServiceBoot/src/main/java/Domain/RequestStage.java
