@@ -6,9 +6,7 @@ import Domain.Client;
 import Service.ClientService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.SpringApplication;
-import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.boot.autoconfigure.domain.EntityScan;
-import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
+import org.springframework.context.annotation.ComponentScan;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestBody;
@@ -17,13 +15,10 @@ import org.springframework.web.bind.annotation.RestController;
 
 import java.util.List;
 
-@SpringBootApplication
 @RestController
-@EntityScan("Domain")
-@EnableJpaRepositories("ClientRepository")
+@ComponentScan("Resource")
 @RequestMapping(value = "client")
 public class UserResource {
-
     @Autowired private ClientService clientService;
 
     @GetMapping
